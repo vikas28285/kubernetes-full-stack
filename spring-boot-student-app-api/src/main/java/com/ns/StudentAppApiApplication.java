@@ -20,7 +20,7 @@ public class StudentAppApiApplication {
 	}
 
 	private void dataSetup(StudentRepository studentRepository) {
-		System.out.println("Adding student");
+		System.out.println("Adding Student");
 		Student student = new Student("Vikas","Singh");
 		studentRepository.save(student);
 	}
