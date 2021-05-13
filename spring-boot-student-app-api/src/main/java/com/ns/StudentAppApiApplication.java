@@ -23,5 +23,6 @@ public class StudentAppApiApplication {
 		System.out.println("Adding Student");
 		Student student = new Student("Vikas","Singh");
 		studentRepository.save(student);
+
 	}
 }
