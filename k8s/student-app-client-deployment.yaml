@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: student-app-client
-          image: vikas28285/student-app-client
+          image: vikas28285/student-webui-image
           imagePullPolicy: Always
           ports:
             - containerPort: 80
